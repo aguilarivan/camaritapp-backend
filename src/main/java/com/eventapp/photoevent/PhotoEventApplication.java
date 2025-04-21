@@ -11,4 +11,5 @@ PhotoEventApplication {
 		SpringApplication.run(PhotoEventApplication.class, args);
 	}
 
+
 }
