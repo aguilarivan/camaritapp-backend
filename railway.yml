@@ -1,5 +1,5 @@
 services:
-  - name: photo-event-backend
+  - name: photo-event
     type: web
     envVars:
       - key: PORT
