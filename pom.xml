@@ -39,6 +39,14 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Hibernate HikariCP (para HikariCPConnectionProvider) -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-hikaricp</artifactId>
+			<version>6.6.11.Final</version> <!-- Coincide con hibernate-core -->
+		</dependency>
+
+
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
