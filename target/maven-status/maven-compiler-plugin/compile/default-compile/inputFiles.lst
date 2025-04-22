@@ -1,6 +1,0 @@
-/home/ivan/Dev/camaritapp/camaritaBackend/src/main/java/com/eventapp/photoevent/PhotoAppApplication.java
-/home/ivan/Dev/camaritapp/camaritaBackend/src/main/java/com/eventapp/photoevent/config/WebConfig.java
-/home/ivan/Dev/camaritapp/camaritaBackend/src/main/java/com/eventapp/photoevent/controller/PhotoController.java
-/home/ivan/Dev/camaritapp/camaritaBackend/src/main/java/com/eventapp/photoevent/model/Photo.java
-/home/ivan/Dev/camaritapp/camaritaBackend/src/main/java/com/eventapp/photoevent/repository/PhotoRepository.java
-/home/ivan/Dev/camaritapp/camaritaBackend/src/main/java/com/eventapp/photoevent/service/PhotoService.java
