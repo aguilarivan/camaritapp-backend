@@ -11,10 +11,15 @@ import java.io.File;
 import java.io.IOException;
 
 @RestController
+@RequestMapping("/photos")
 public class PhotoController {
 
+    private final PhotoService photoService;
+
     @Autowired
-    private PhotoService photoService;
+    public PhotoController(PhotoService photoService) {
+        this.photoService = photoService;
+    }
 
     @PostMapping("/upload")
     public ResponseEntity<String> uploadPhoto(@RequestParam("file") MultipartFile file) {

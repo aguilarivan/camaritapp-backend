@@ -1,6 +1,3 @@
-com/eventapp/photoevent/service/PhotoService.class
-com/eventapp/photoevent/config/WebConfig.class
-com/eventapp/photoevent/PhotoEventApplication.class
-com/eventapp/photoevent/repository/PhotoRepository.class
 com/eventapp/photoevent/controller/PhotoController.class
-com/eventapp/photoevent/model/Photo.class
+com/eventapp/photoevent/config/WebConfig.class
+com/eventapp/photoevent/PhotoAppApplication.class

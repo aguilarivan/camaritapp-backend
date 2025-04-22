@@ -40,7 +40,8 @@ public class PhotoService {
                 .sorted(Comparator.comparing(File::getName))
                 .toArray(File[]::new);
 
-        int idx = index.getAndUpdate(i -> (i + 1) % files.length);
+        int fileCount = files.length;
+        int idx = index.getAndUpdate(i -> (i + 1) % fileCount);
         return files[idx];
     }
 }
