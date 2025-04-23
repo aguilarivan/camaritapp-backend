@@ -8,10 +8,10 @@
 		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.eventophoto</groupId>
-	<artifactId>photoapp</artifactId>
+	<groupId>com.gaulab</groupId>
+	<artifactId>camaritapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>photoapp</name>
+	<name>camaritapp</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

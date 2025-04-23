@@ -1,12 +1,12 @@
-package com.eventophoto.photoapp;
+package com.gaulab.camaritapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PhotoEventApplication {
+public class camaritapp {
 	public static void main(String[] args) {
-		SpringApplication.run(PhotoEventApplication.class, args);
+		SpringApplication.run(camaritapp.class, args);
 	}
 }
 

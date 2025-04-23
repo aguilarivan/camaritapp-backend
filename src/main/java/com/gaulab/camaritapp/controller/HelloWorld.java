@@ -1,4 +1,4 @@
-package com.eventophoto.photoapp.controller;
+package com.gaulab.camaritapp.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,5 +14,6 @@ public class HelloWorld {
         return Arrays.asList("Hello World", "This is a test");
     }
 
-    
+
+
 }
