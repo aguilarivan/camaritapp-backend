@@ -1,11 +1,11 @@
 package com.gaulab.weshoot.service.impl;
 
-import com.gaulab.shotandshare.dto.UserRegistrationDTO;
-import com.gaulab.shotandshare.exceptions.ResourceNotFoundException;
-import com.gaulab.shotandshare.persistance.models.Party;
-import com.gaulab.shotandshare.persistance.models.User;
-import com.gaulab.shotandshare.persistance.repository.UserRepository;
-import com.gaulab.shotandshare.services.UserService;
+import com.gaulab.weshoot.dto.UserRegistrationDTO;
+import com.gaulab.weshoot.exception.ResourceNotFoundException;
+import com.gaulab.weshoot.model.Party;
+import com.gaulab.weshoot.model.User;
+import com.gaulab.weshoot.repository.UserRepository;
+import com.gaulab.weshoot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

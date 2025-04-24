@@ -1,13 +1,13 @@
 package com.gaulab.weshoot.service.impl;
 
 import com.gaulab.weshoot.dto.PartyDTO;
-import com.gaulab.weshoot.exceptions.ResourceNotFoundException;
-import com.gaulab.weshoot.persistance.models.Party;
-import com.gaulab.weshoot.persistance.models.Photo;
-import com.gaulab.weshoot.persistance.models.User;
-import com.gaulab.weshoot.persistance.repository.PartyRepository;
-import com.gaulab.weshoot.services.PartyService;
-import com.gaulab.weshoot.services.UserService;
+import com.gaulab.weshoot.exception.ResourceNotFoundException;
+import com.gaulab.weshoot.model.Party;
+import com.gaulab.weshoot.model.Photo;
+import com.gaulab.weshoot.model.User;
+import com.gaulab.weshoot.repository.PartyRepository;
+import com.gaulab.weshoot.service.PartyService;
+import com.gaulab.weshoot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

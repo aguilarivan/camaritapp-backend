@@ -1,6 +1,6 @@
 package com.gaulab.weshoot.service;
 
-import com.gaulab.shotandshare.persistance.models.Photo;
+import com.gaulab.weshoot.model.Photo;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

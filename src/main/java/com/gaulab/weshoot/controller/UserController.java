@@ -1,7 +1,7 @@
 package com.gaulab.weshoot.controller;
 
-import com.gaulab.shotandshare.persistance.models.User;
-import com.gaulab.shotandshare.services.UserService;
+import com.gaulab.weshoot.model.User;
+import com.gaulab.weshoot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

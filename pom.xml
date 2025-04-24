@@ -11,7 +11,7 @@
 	<groupId>com.gaulab</groupId>
 	<artifactId>weshoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>camaritapp</name>
+	<name>weshoot</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -76,6 +76,11 @@
 			<groupId>com.cloudinary</groupId>
 			<artifactId>cloudinary-http44</artifactId>
 			<version>1.32.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 

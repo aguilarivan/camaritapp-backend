@@ -1,8 +1,8 @@
 package com.gaulab.weshoot.controller;
 
-import com.gaulab.shotandshare.dto.PartyDTO;
-import com.gaulab.shotandshare.persistance.models.Party;
-import com.gaulab.shotandshare.services.PartyService;
+import com.gaulab.weshoot.dto.PartyDTO;
+import com.gaulab.weshoot.model.Party;
+import com.gaulab.weshoot.service.PartyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

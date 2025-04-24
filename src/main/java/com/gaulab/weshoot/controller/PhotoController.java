@@ -1,7 +1,7 @@
 package com.gaulab.weshoot.controller;
 
-import com.gaulab.shotandshare.persistance.models.Photo;
-import com.gaulab.shotandshare.services.PhotoService;
+import com.gaulab.weshoot.model.Photo;
+import com.gaulab.weshoot.service.PhotoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/photo")
 public class PhotoController {
+
     @Autowired
     private PhotoService photoService;
 

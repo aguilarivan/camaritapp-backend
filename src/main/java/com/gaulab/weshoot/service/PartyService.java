@@ -1,7 +1,7 @@
 package com.gaulab.weshoot.service;
 
-import com.gaulab.shotandshare.dto.PartyDTO;
-import com.gaulab.shotandshare.persistance.models.Party;
+import com.gaulab.weshoot.dto.PartyDTO;
+import com.gaulab.weshoot.model.Party;
 
 import java.util.List;
 

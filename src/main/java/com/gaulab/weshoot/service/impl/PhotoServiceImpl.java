@@ -2,12 +2,12 @@ package com.gaulab.weshoot.service.impl;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
-import com.gaulab.shotandshare.enums.PHOTO_STATE;
-import com.gaulab.shotandshare.exceptions.ResourceNotFoundException;
-import com.gaulab.shotandshare.persistance.models.Party;
-import com.gaulab.shotandshare.persistance.models.Photo;
-import com.gaulab.shotandshare.services.PhotoService;
-import com.gaulab.shotandshare.persistance.repository.PhotoRepository;
+import com.gaulab.weshoot.model.PHOTO_STATE;
+import com.gaulab.weshoot.exception.ResourceNotFoundException;
+import com.gaulab.weshoot.model.Party;
+import com.gaulab.weshoot.model.Photo;
+import com.gaulab.weshoot.service.PhotoService;
+import com.gaulab.weshoot.repository.PhotoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

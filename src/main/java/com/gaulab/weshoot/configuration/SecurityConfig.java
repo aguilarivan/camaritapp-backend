@@ -1,6 +1,5 @@
 package com.gaulab.weshoot.configuration;
 
-import com.gaulab.shotandshare.services.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -21,6 +20,8 @@ public class SecurityConfig {
         return http
                 .securityMatcher("/**") // opcional, si querés limitar la seguridad a ciertos paths
                 .csrf(csrf -> csrf.disable())
+                .headers(headers -> headers.frameOptions(frameOptions -> frameOptions.sameOrigin()))
+                // permitir iframes desde el mismo origen
                 .authorizeHttpRequests(authorize -> authorize
                         .anyRequest().permitAll()
                 )
