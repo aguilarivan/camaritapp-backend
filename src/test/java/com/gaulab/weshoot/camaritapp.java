@@ -1,4 +1,4 @@
-package com.gaulab.camaritapp;
+package com.gaulab.weshoot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

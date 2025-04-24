@@ -1,4 +1,4 @@
-package com.gaulab.camaritapp.model;
+package com.gaulab.weshoot.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

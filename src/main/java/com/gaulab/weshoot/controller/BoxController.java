@@ -1,7 +1,7 @@
-package com.gaulab.camaritapp.controller;
+package com.gaulab.weshoot.controller;
 
-import com.gaulab.camaritapp.model.Box;
-import com.gaulab.camaritapp.service.BoxService;
+import com.gaulab.weshoot.model.Box;
+import com.gaulab.weshoot.service.BoxService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

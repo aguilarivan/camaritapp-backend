@@ -1,7 +1,7 @@
-package com.gaulab.camaritapp.configuration;
+package com.gaulab.weshoot.configuration;
 
-import com.gaulab.camaritapp.model.Box;
-import com.gaulab.camaritapp.repository.BoxRepository;
+import com.gaulab.weshoot.model.Box;
+import com.gaulab.weshoot.repository.BoxRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

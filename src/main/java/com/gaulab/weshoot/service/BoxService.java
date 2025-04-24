@@ -1,7 +1,7 @@
-package com.gaulab.camaritapp.service;
+package com.gaulab.weshoot.service;
 
-import com.gaulab.camaritapp.model.Box;
-import com.gaulab.camaritapp.repository.BoxRepository;
+import com.gaulab.weshoot.model.Box;
+import com.gaulab.weshoot.repository.BoxRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

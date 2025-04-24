@@ -1,6 +1,6 @@
-package com.gaulab.camaritapp.repository;
+package com.gaulab.weshoot.repository;
 
-import com.gaulab.camaritapp.model.Box;
+import com.gaulab.weshoot.model.Box;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BoxRepository extends JpaRepository<Box, Long> {
